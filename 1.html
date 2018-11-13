@@ -21,7 +21,7 @@
        .attr("x", 50)
        .attr("y", 50)
        .attr("font-size", "24px")
-       .text("XYZ Foods Stock Price")
+       .text("party")
 
     var xScale = d3.scaleBand().range([0, width]).padding(0.4),
         yScale = d3.scaleLinear().range([height, 0]);
@@ -45,7 +45,7 @@
          .attr("x", width - 100)
          .attr("text-anchor", "end")
          .attr("stroke", "black")
-         .text("Year");
+         .text("Party");
 
         g.append("g")
          .call(d3.axisLeft(yScale).tickFormat(function(d){
